@@ -75,6 +75,7 @@ p.title="Sulin Project"
 p.addCss("main.css")
 p.add(tagged("p",item(open("src/join/1.txt").read())))
 t=table(3,3)
+p.add(tagged("center",item(H("SulinOS Developer Team",3))))
 t.setItem(0,0,item(open("src/join/sulincix.txt").read()))
 t.setItem(0,1,item(open("src/join/zaryob.txt").read()))
 t.setItem(0,2,item(open("src/join/frknkrc44.txt").read()))
