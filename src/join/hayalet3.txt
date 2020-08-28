@@ -1,0 +1,7 @@
+<a href="https://gitlab.com/hayalet3">
+<div class="developer">
+<img src="developer/hayalet3.jpg"/>
+<br>Tuğrul CEYHAN
+<br>Tester & Documentation
+</div>
+</a>

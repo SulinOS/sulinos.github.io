@@ -1,0 +1,13 @@
+<H2>Contribute SulinOS</H2>
+You can create pull request or see source codes. You should visit our github and gitlab pages.
+
+<h4>Mainline</h4>
+We strongly recommend to send your fixes from mainline.
+<br><a class="foolink" href="https://gitlab.com/sulinos">Source Code on Gitlab</a>
+<h4>Mirrors</h4>
+But if you use github or bitbucket. Its also available.
+<br><a class="foolink" href="https://kod.acikkaynak.gov.tr/sulinos">Source Code on AKKP KOD</a>
+<br><a class="foolink" href="https://github.com/sulinos">Source Code on Github</a>
+<br><a class="foolink" href="https://bitbucket.org/SulinOS">Source Code on Bitbucket</a>
+<br><br>Or you can send feedback of sulinos bugs.
+<br><a class="foolink" href="https://gitlab.com/groups/sulinos/-/issues">SulinOS Issue Page</a>

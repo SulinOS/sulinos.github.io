@@ -1,0 +1,7 @@
+<a href="https://gitlab.com/sulincix">
+<div class="developer">
+<img src="developer/sulincix.jpg"/>
+<br>Ali Rıza KESKİN
+<br>Packager & Developer
+</div>
+</a>

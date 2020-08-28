@@ -1,0 +1,6 @@
+SulinOS faster than standard distributions. 
+For example, every package was compiled without selinux or apparmor. 
+Also the kernel is configured for better security, without compromise. 
+SulinOS never use sudo (You can use &apos;su -c command&apos; inside sudo). 
+SulinOS is oriented towards advanced Linux users, who know what they're doing.
+

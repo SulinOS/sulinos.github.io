@@ -1,0 +1,7 @@
+SulinOS project is an <b>independent</b> base linux distro project. 
+Our main purpose in creating SulinOS is to create an rolling release operating system that <b><a href="https://nosystemd.org" >does not use systemd</a></b>. 
+It uses two different kernels, <a href="https://www.kernel.org/" >Linux kernel</a> and <a href="http://www.fsfla.org/ikiwiki/selibre/linux-libre/" >Libre kernel</a>. 
+In order to continue in accordance with the gnu philosophy <a href="https://www.gnu.org/software/libc/" >glibc</a> used as libc library. 
+SulinOS aims to create a strong substructure named <b>indispensable</b> which is a kind of minimal system. 
+Thanks to this infrastructure, we have created an easy-to-shape distro. It can be used on desktops, servers and embedded devices.
+

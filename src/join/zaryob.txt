@@ -1,0 +1,7 @@
+<a href="https://gitlab.com/zaryob">
+<div class="developer">
+<img src="developer/zaryob.png"/>
+<br>Suleyman POYRAZ
+<br>Packager & Developer
+</div>
+</a>

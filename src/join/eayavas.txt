@@ -1,0 +1,7 @@
+<a href="https://github.com/eayavas">
+<div class="developer">
+<img src="developer/cobalt.jpg"/>
+<br>Efe Arda YAVAŞ
+<br>for Girls (Designer)
+</div>
+</a>

@@ -1,0 +1,5 @@
+<div class="developer">
+<img src="developer/nobugger.jpg"/>
+<br>Adil AYTAN
+<br>Tester
+</div>

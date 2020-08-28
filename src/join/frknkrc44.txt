@@ -1,0 +1,7 @@
+<a href="https://gitlab.com/frknkrc44">
+<div class="developer">
+<img src="developer/frknkrc44.jpg"/>
+<br>Furkan KARCIOĞLU
+<br>Tester & Developer
+</div>
+</a>

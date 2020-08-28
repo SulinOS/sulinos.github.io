@@ -1,0 +1,5 @@
+SulinOS uses its own toolset. It uses it's own package manager called <b><a href="https://gitlab.com/sulinos/devel/inary" >inary</a></b>. 
+SulinOS uses openrc as service manager. Also SulinOS has <b><a href="https://gitlab.com/sulinos/devel/force-elogind" >force-elogind</a></b> 
+so you may compile systemd related packages without systemd.SulinOS has <b><a href="https://gitlab.com/sulinos/devel/libselinux-dummy" >dummy-selinux</a></b> software. 
+You can run selinux dependent packages with dummy-selinux. (dummy-selinux is not preinstalled)
+

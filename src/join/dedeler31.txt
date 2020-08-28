@@ -1,0 +1,5 @@
+<div class="developer">
+<img src="developer/dedeler31.jpg"/>
+<br>Orkun COŞKUN
+<br>Tester
+</div>

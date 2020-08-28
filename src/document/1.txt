@@ -1,0 +1,7 @@
+<H2>Sulinos Documentation & Wiki Pages</H2>
+<br>You can read this documentations:
+<br>
+<a class="foolink" href="https://sulinos.github.io/sulin-wiki/">*Sulin Documentation</a>
+<br><a class="foolink" href="https://sulinos.github.io/inary">*Inary Documentation</a>
+<br><br>Also you can visit <a href="https://t.me/sulincix">sulincix</a> pages:
+<br><a href="https://sulincix.github.io/sayfalar">*Sulincix pages (Turkish)</a>

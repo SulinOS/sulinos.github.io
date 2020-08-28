@@ -1,0 +1,5 @@
+<div class="developer">
+<img src="developer/koala.png"/>
+<br>Pınar HANÇER
+<br>Tester
+</div>

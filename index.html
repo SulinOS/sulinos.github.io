@@ -1,68 +1,96 @@
-<!DOCTYPE html>
 <html>
 <head>
- <title>SulinOS Homepage</title>
- <link rel="Sulin icon"  type='image/x-icon' href="favicon.ico"/>
-     <link rel="Stylesheet" href="style.css">
-     </head>
-     <body>
-      <div class="wrapper">
-      <header>
-      <table>
-      <tr>
-        <th><img src="sulin-logo.svg" class="header"></th>
-         <th><h1>SulinOS Project</h1></th>
-        </tr>
-       </table>
-      <nav>
-      <ul>
-        <li><a href="index.html" class="current">Home</a></li>
-        <li><a href="downloads.html">Downloads</a></li>
-        <li><a href="documents.html">Documents</a></li>
-        <li><a href="join.html">Join Us</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-      </ul>
-      </nav>
-      </header>
-      <div class="content">
-      <section>
-        <article>
-        <h2>What is SulinOS ?</h2>
-	<p>SulinOS project is an <b>independent</b> base linux distro project. Our main purpose in creating SulinOS is to create an rolling release operating system that <b><a href="https://nosystemd.org">does not use systemd</a></b>. It uses two different kernels, <a href="https://www.kernel.org/">Linux kernel</a> and <a href="http://www.fsfla.org/ikiwiki/selibre/linux-libre/">Libre kernel</a>. In order to continue in accordance with the gnu philosophy <a href="https://www.gnu.org/software/libc/">glibc</a> used as libc library. SulinOS aims to create a strong substructure named <b>indispensable</b> which is a kind of minimal system.Thanks to this infrastructure, we have created an easy-to-shape distro. It can be used on desktops, servers and embedded devices. </p>
-  <p>SulinOS uses its own toolset. It uses it's own package manager called <b><a href="https://gitlab.com/sulinos/devel/inary">inary</a></b>. It uses a Gentoo-like revdep-rebuild system to provide dependency analysis and broken packet analysis. Specfiles include multi-language support.</p>
-	<p>SulinOS uses openrc as service manager. Also SulinOS has <b><a href="https://gitlab.com/sulinos/devel/force-elogind">force-elogind</a></b> so you may compile systemd related packages without systemd.</p> SulinOS has <b><a href="https://gitlab.com/sulinos/devel/libselinux-dummy">dummy-selinux</a></b> software. You can run selinux dependent packages with dummy-selinux. (dummy-selinux is not preinstalled)
-  <p>We continue to develop with inspiration from the legacy <b><a href="https://pardusproject.org/">Pardus2011</a></b> project in the past.</p>
-  <p></p>
-</article>
+<link rel="Stylesheet" href="main.css" />
+<link rel="Stylesheet" href="main.css" />
+</head>
+<body>
+<div class="main">
+<!--header begin--><div class="header" >
+
+<table  class="header" >
+<tr>
+<th>
+<img src="sulin-logo.svg" ></th>
+<th>
+<H2>Sulin Project</H2></th>
+</tr>
+</table>
+
+<nav class="navbar" >
+<ul>
+<li><a href="index.html" class="current" >Home</a></li>
+<li><a href="download.html" >Download</a></li>
+<li><a href="document.html" >Documents</a></li>
+<li><a href="join.html" >Join Us</a></li>
+<li><a href="gallery.html" >Gallery</a></li>
+</ul>
+</nav>
+</div>
+
+<!--header end-->
+<!--content begin-->
+<div class="section" >
 <article>
+<H2>What is SulinOS ?</H2><p>
+SulinOS project is an <b>independent</b> base linux distro project. 
+Our main purpose in creating SulinOS is to create an rolling release operating system that <b><a href="https://nosystemd.org" >does not use systemd</a></b>. 
+It uses two different kernels, <a href="https://www.kernel.org/" >Linux kernel</a> and <a href="http://www.fsfla.org/ikiwiki/selibre/linux-libre/" >Libre kernel</a>. 
+In order to continue in accordance with the gnu philosophy <a href="https://www.gnu.org/software/libc/" >glibc</a> used as libc library. 
+SulinOS aims to create a strong substructure named <b>indispensable</b> which is a kind of minimal system. 
+Thanks to this infrastructure, we have created an easy-to-shape distro. It can be used on desktops, servers and embedded devices.
 
-<h2>Why SulinOS ?</h2>
-	<p>SulinOS faster than standard distributions. For example, every package was compiled without selinux or apparmor. Also the kernel is configured for better security, without compromise. SulinOS never use sudo (You can use &apos;su -c command&apos; inside sudo). SulinOS is oriented towards advanced Linux users, who know what they're doing.</p>
-	<p>Sulinos distribution is free software and the package manager gives you no way 3. the party doesn't force you to install packages. packages generally compiled without any patches or customizes. SulinOS provide pure GNU/Linux experience like <a href="http://linuxfromscratch.org/lfs/">linuxfromscratch</a></p>
-  <p>As a difference between LFS, SulinOS has multilib support is also provided under 64bit called emul32.</p>
-	<p></p> <h2 align="center">
-	<iframe width="99%" height="300" src="https://www.youtube.com/embed/NhWDE5JaJ3o"></iframe>
-	</h2>
-	<p></p> <h2 align="center">
- <p><a href="downloads.html"><span class="download">Get SulinOS</span></a></p></h2>
-	<p></p> <h2 align="center">
- <p><a href="https://distrowatch.com/dwres.php?waitingdistro=579&resource=links"><span class="download">Vote SulinOS on distrowatch</span></a></p></h2>
- <article>
 
-     </section>
+</p>
+<p>
+SulinOS uses its own toolset. It uses it's own package manager called <b><a href="https://gitlab.com/sulinos/devel/inary" >inary</a></b>. 
+SulinOS uses openrc as service manager. Also SulinOS has <b><a href="https://gitlab.com/sulinos/devel/force-elogind" >force-elogind</a></b> 
+so you may compile systemd related packages without systemd.SulinOS has <b><a href="https://gitlab.com/sulinos/devel/libselinux-dummy" >dummy-selinux</a></b> software. 
+You can run selinux dependent packages with dummy-selinux. (dummy-selinux is not preinstalled)
 
- <aside>
 
- <section class="Latest Packages">
- <h2>Upgrades</h2>
- <a href="https://sourceforge.net/p/sulinos/activity/feed.rss" rel="alternate" type="application/rss+xml">Subscribe to What's New</a>
- </section>
- </aside>
- </div>
- <footer>
-   <center><h4> &copy; 2016 - 2020 SulinOS Project</h4></center>
-   <center>The software used in this project is licensed with GPLv2 GPLv3 LGPLv2 LGPLv3 AGPLv3. Documents are licensed with FDL. The website is under MIT license.<center>
-   </div>
- </footer>
-</body>
+</p>
+<p>
+We continue to develop with inspiration from the legacy <b><a href="https://pardusproject.org/" >Pardus2011</a></b> project in the past.
+
+
+</p>
+<H2>Why SulinOS ?</H2><p>
+SulinOS faster than standard distributions. 
+For example, every package was compiled without selinux or apparmor. 
+Also the kernel is configured for better security, without compromise. 
+SulinOS never use sudo (You can use &apos;su -c command&apos; inside sudo). 
+SulinOS is oriented towards advanced Linux users, who know what they're doing.
+
+
+</p>
+<p>
+Sulinos distribution is free software and the package manager gives you no way 3. the party doesn't force you to install packages. 
+packages generally compiled without any patches or customizes. 
+SulinOS provide pure GNU/Linux experience like <a href="http://linuxfromscratch.org/lfs/" >linuxfromscratch</a>. 
+As a difference between LFS, SulinOS has multilib support is also provided under 64bit called emul32.
+
+
+</p>
+
+</article>
+
+</div>
+
+<div class="section" >
+<iframe width="99%" height="300" src="https://www.youtube.com/embed/NhWDE5JaJ3o"></iframe>
+</div>
+
+<!--content end-->
+<!--footer begin--><footer>
+<center>
+<H4>&copy; 2016 - 2020 SulinOS Project</H4>
+</center>
+<center>
+The software used in this project is licensed with GPLv2 GPLv3 LGPLv2 LGPLv3 AGPLv3. Documents are licensed with FDL. The website is under MIT license.
+</center>
+
+</footer>
+
+<!--footer end-->
+</div></body>
 </html>

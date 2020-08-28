@@ -1,0 +1,5 @@
+Sulinos distribution is free software and the package manager gives you no way 3. the party doesn't force you to install packages. 
+packages generally compiled without any patches or customizes. 
+SulinOS provide pure GNU/Linux experience like <a href="http://linuxfromscratch.org/lfs/" >linuxfromscratch</a>. 
+As a difference between LFS, SulinOS has multilib support is also provided under 64bit called emul32.
+
