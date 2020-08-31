@@ -1,5 +1,5 @@
 from sitemaker import *
-import theme
+import sitemaker.themes.classic as theme
 
 def create_menu(current=0):
     i=0
