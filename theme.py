@@ -80,9 +80,6 @@ class theme_css:
             c_menu.add("background","red")
             c_menu.add("text-align","center")
             
-            c_section=css("section")
-            c_section.add("margin","3%")
-            
             c_article=css("article",2)
             c_article.add("clear","both")
             c_article.add("overflow","auto")
@@ -104,12 +101,16 @@ class theme_css:
             
             c_img_small=css("img.small",2)
             c_img_small.add("height","125px")
+            
+            c_ctx=css("content")
+            c_ctx.add("min-height","350px")
+            c_ctx.add("margin","3%")
+            c_ctx.add("background",self.main_background)
         
             self.css.addCss(c_main)
             self.css.addCss(c_header)
             self.css.addCss(c_menu)
             self.css.addCss(c_body)
-            self.css.addCss(c_section)
             self.css.addCss(c_footer)
             self.css.addCss(c_navbar)
             self.css.addCss(c_link)
@@ -125,6 +126,7 @@ class theme_css:
             self.css.addCss(c_img_medium)
             self.css.addCss(c_img_small)
             self.css.addCss(c_img_large)
+            self.css.addCss(c_ctx)
             return self.css.build()
             
     def save(self,path):
@@ -154,8 +156,10 @@ class theme_page:
         c.addItem(nav)
         self.p.header=div(c,"header")
         self.p.addRel("main.css")
+        ctx=div(cls="content")
         for sec in self.sections:
-            self.p.content.addItem(div(sec,cls="section"))
+            ctx.addItem(div(sec,cls="section"))
+        self.p.content=ctx
         footer=tagged("footer")
         for f in self.footers:
             footer.addItem(f)

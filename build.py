@@ -97,3 +97,14 @@ p.title="Sulin Project"
 p.addCss("main.css")
 p.add(tagged("center",item(open("src/gallery/1.txt").read())))
 p.save("gallery.html")
+
+#empty
+#document.html
+p=theme.theme_page()
+p.menu=create_menu(-1)
+p.footers=create_footer()
+p.logo.setImage("sulin-logo.svg")
+p.title="Sulin Project"
+p.addCss("main.css")
+p.save("empty.html")
+
