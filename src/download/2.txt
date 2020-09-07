@@ -1,45 +1,63 @@
+<h2>Stable ISO images</h2>
 <article>
 <figure>
-<img src="screenshot/7.png" height="163" alt="Minimal ISO" />
+<img src="screenshot/1.jpg" height="163" alt="GNOME ISO (stable)" />
+<figcaption>SulinOS GNOME</figcaption>
+</figure>
+<hgroup>
+<h2>SulinOS GNOME (stable)</h2>
+<a href="https://sourceforge.net/projects/sulinos/files/iso_images/gnome/sulinos-20200823-gnome.iso/download"><h3>Download GNOME Desktop environment without systemd.</h3></a>
+</hgroup>
+<p>Our reason with Gnome Iso is creating an Gnome Desktop environment without using systemd service manager. We are compiled GNOME with using libelogind and stabilized it without using any additional patch. Try and live the Gnome life.</p>
+</article>
+
+<article>
+<figure>
+<img src="screenshot/3.jpg" height="163" alt="Xfce ISO (stable)" />
+<figcaption>SulinOS Xfce</figcaption>
+</figure>
+<hgroup>
+<h2>SulinOS Xfce (stable)</h2>
+<a href="https://sourceforge.net/projects/sulinos/files/iso_images/xfce/sulin-20200907-xfce.iso/download"><h3>Download XFCE Desktop environment without systemd.</h3></a>
+</hgroup>
+<p>Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly.</p>
+</article>
+
+<h2>Beta ISO images</h2>
+
+<article>
+<figure>
+<img src="screenshot/7.png" height="163" alt="Minimal ISO (Beta)" />
 <figcaption>SulinOS Minimal</figcaption>
 </figure>
 <hgroup>
-<h2>SulinOS Minimal ISO</h2>
+<h2>SulinOS Minimal ISO (beta)</h2>
 <a href="https://sourceforge.net/projects/sulinos/files/old_iso_images/beta/s20/sulinos-20200520-beta.iso/download"><h3>Minimal iso just consist of development packages and TTY login.</h3></a>
 </hgroup>
 <p>To speialize yout environment we create a base iso. You can install it with ELSA installer and Install 8 different desktop environment to use personally or server softwares to create servers with SulinOS.</p>
 </article>
+
 <article>
 <figure>
-<img src="screenshot/4.jpg" height="163" alt="KDE ISO" />
+<img src="screenshot/4.jpg" height="163" alt="KDE ISO (beta)" />
 <figcaption>SulinOS KDE</figcaption>
 </figure>
 <hgroup>
-<h2>SulinOS KDE</h2>
+<h2>SulinOS KDE (beta)</h2>
 <a href="https://sourceforge.net/projects/sulinos/files/old_iso_images/beta/s20/sulinos-20200610-beta-kde.iso/download"><h3>Test KDE ISO comes with QT-Designer and Base application.</h3></a>
 </hgroup>
 <p>Our reason with KDE Iso is creating a `Minimal` and user-friendly environment for QT-Developers and also end-users. There are additional 200 packages in our Repository under desktop.kde component. We just add frameworks and plasma environment with important additional applications to create a clean environment. Just Enjoy With it :)</p>
 </article>
-<article>
-<figure>
-<img src="screenshot/1.jpg" height="163" alt="GNOME ISO" />
-<figcaption>SulinOS GNOME</figcaption>
-</figure>
-<hgroup>
-<h2>SulinOS GNOME</h2>
-<a href="https://sourceforge.net/projects/sulinos/files/iso_images/gnome/sulinos-20200823-gnome.iso/download"><h3>Test GNOME Desktop environment without systemd.</h3></a>
 
-</hgroup>
-<p>Our reason with Gnome Iso is creating an Gnome Desktop environment without using systemd service manager. We are compiled GNOME with using libelogind and stabilized it without using any additional patch. Try and live the Gnome life.</p>
-</article>
 <article>
 <figure>
-<img src="screenshot/11.jpg" height="163" alt="Pantheon ISO" />
+<img src="screenshot/11.jpg" height="163" alt="Pantheon ISO (beta)" />
 <figcaption>SulinOS Pantheon</figcaption>
 </figure>
 <hgroup>
-<h2>SulinOS Pantheon</h2>
+<h2>SulinOS Pantheon (beta)</h2>
 <a href="https://sourceforge.net/projects/sulinos/files/old_iso_images/beta/s20/sulinos-20200606-beta-pantheon.iso/download"><h3>Test Pantheon Desktop environment without systemd.</h3></a>
 </hgroup>
 <p>Pantheon is ElementaryOS's Desktop Environment. We succeed to compile it with libelogind and created an iso with use libelogind and openrc. It's totally useful for users</p>
 </article>
+

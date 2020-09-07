@@ -42,7 +42,7 @@ article.addItem(item(H("Why SulinOS ?",2)))
 article.addItem(tagged("p",item(open("src/index/4.txt").read())))
 article.addItem(tagged("p",item(open("src/index/5.txt").read())))
 p.add(article)
-p.add(item("""<iframe width="99%" height="300" src="https://www.youtube.com/embed/NhWDE5JaJ3o"></iframe>"""))
+#p.add(item("""<iframe width="99%" height="300" src="https://www.youtube.com/embed/NhWDE5JaJ3o"></iframe>"""))
 p.save("index.html")
 
 #download.html
