@@ -26,6 +26,7 @@ c.save("main.css")
 
 # index.html
 p=theme.theme_page()
+p.p.addRel("https://distrowatch.com/dwres.php?waitingdistro=579&resource=links")
 p.menu=create_menu(0)
 p.footers=create_footer()
 p.logo.setImage("sulin-logo.svg")
@@ -47,6 +48,7 @@ p.save("index.html")
 
 #download.html
 p=theme.theme_page()
+p.p.addRel("https://distrowatch.com/dwres.php?waitingdistro=579&resource=links")
 p.menu=create_menu(1)
 p.footers=create_footer()
 p.logo.setImage("sulin-logo.svg")
@@ -58,6 +60,7 @@ p.save("download.html")
 
 #document.html
 p=theme.theme_page()
+p.p.addRel("https://distrowatch.com/dwres.php?waitingdistro=579&resource=links")
 p.menu=create_menu(2)
 p.footers=create_footer()
 p.logo.setImage("sulin-logo.svg")
@@ -68,6 +71,7 @@ p.save("document.html")
 
 #document.html
 p=theme.theme_page()
+p.p.addRel("https://distrowatch.com/dwres.php?waitingdistro=579&resource=links")
 p.menu=create_menu(3)
 p.footers=create_footer()
 p.logo.setImage("sulin-logo.svg")
@@ -90,6 +94,7 @@ p.save("join.html")
 
 #document.html
 p=theme.theme_page()
+p.p.addRel("https://distrowatch.com/dwres.php?waitingdistro=579&resource=links")
 p.menu=create_menu(4)
 p.footers=create_footer()
 p.logo.setImage("sulin-logo.svg")
@@ -101,6 +106,7 @@ p.save("gallery.html")
 #empty
 #document.html
 p=theme.theme_page()
+p.p.addRel("https://distrowatch.com/dwres.php?waitingdistro=579&resource=links")
 p.menu=create_menu(-1)
 p.footers=create_footer()
 p.logo.setImage("sulin-logo.svg")
