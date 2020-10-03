@@ -1,4 +1,4 @@
- <center><h2>SulinOS installation media</h2></center>
+<center><h2>SulinOS installation media</h2></center>
 <br><center><a class="foolink" style="padding: 10px;  background: #de6581;  color:white; border-radius: 5px;" href="https://sourceforge.net/projects/sulinos/files/iso_images/"><span class="download">Look at stable <b>SulinOS</b> ISO Files.</span></a></center>
 <br><center><br>You can write to your usb memory with <a href="https://etcher.io">Etcher</a> </br></center>
 <br>SulinOS iso images are iso9096 format. You can use legacy and uefi bootloader.

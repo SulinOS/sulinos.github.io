@@ -6,7 +6,7 @@
 </figure>
 <hgroup>
 <h2>SulinOS GNOME (stable)</h2>
-<a href="https://sourceforge.net/projects/sulinos/files/iso_images/gnome/sulinos-20200902-gnome.iso/download><h3>Download GNOME Desktop environment without systemd.</h3></a>
+<a href="https://sourceforge.net/projects/sulinos/files/iso_images/gnome/sulinos-20200902-gnome.iso/download"><h3>Download GNOME Desktop environment without systemd.</h3></a>
 </hgroup>
 <p>Our reason with Gnome Iso is creating an Gnome Desktop environment without using systemd service manager. We are compiled GNOME with using libelogind and stabilized it without using any additional patch. Try and live the Gnome life.</p>
 </article>
