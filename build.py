@@ -19,21 +19,25 @@ def create_footer():
     footer.append(tagged("center",item("The software used in this project is licensed with GPLv2 GPLv3 LGPLv2 LGPLv3 AGPLv3. Documents are licensed with FDL. The website is under MIT license.")))
     return footer
 
+def create_skeleton(num):
+    p=theme.theme_page()
+    p.p.addRel("https://distrowatch.com/dwres.php?waitingdistro=579&resource=links")
+    p.menu=create_menu(num)
+    p.footers=create_footer()
+    p.logo.setImage("sulin-logo.svg")
+    p.title="Sulin Project"
+    p.addCss("main.css")
+    return p
+    
 #css theme
 c=theme.theme_css()
 c.save("main.css")
 
 
 # index.html
-p=theme.theme_page()
-p.p.addRel("https://distrowatch.com/dwres.php?waitingdistro=579&resource=links")
-p.menu=create_menu(0)
-p.footers=create_footer()
-p.logo.setImage("sulin-logo.svg")
-p.title="Sulin Project"
-p.addCss("main.css")
+p=create_skeleton(0)
 
-#index.html content
+# index content
 article=tagged("article")
 article.addItem(item(H("What is SulinOS ?",2)))
 article.addItem(tagged("p",item(open("src/index/1.txt").read())))
@@ -46,37 +50,25 @@ p.add(article)
 #p.add(item("""<iframe width="99%" height="300" src="https://www.youtube.com/embed/NhWDE5JaJ3o"></iframe>"""))
 p.save("index.html")
 
-#download.html
-p=theme.theme_page()
-p.p.addRel("https://distrowatch.com/dwres.php?waitingdistro=579&resource=links")
-p.menu=create_menu(1)
-p.footers=create_footer()
-p.logo.setImage("sulin-logo.svg")
-p.title="Sulin Project"
-p.addCss("main.css")
+# download.html
+p=create_skeleton(1)
+
+# download content
 p.add(tagged("p",item(open("src/download/1.txt").read())))
 p.add(tagged("p",item(open("src/download/2.txt").read())))
 p.save("download.html")
 
-#document.html
-p=theme.theme_page()
-p.p.addRel("https://distrowatch.com/dwres.php?waitingdistro=579&resource=links")
-p.menu=create_menu(2)
-p.footers=create_footer()
-p.logo.setImage("sulin-logo.svg")
-p.title="Sulin Project"
-p.addCss("main.css")
+# document.html
+p=create_skeleton(2)
+
+#document content
 p.add(tagged("p",item(open("src/document/1.txt").read())))
 p.save("document.html")
 
-#document.html
-p=theme.theme_page()
-p.p.addRel("https://distrowatch.com/dwres.php?waitingdistro=579&resource=links")
-p.menu=create_menu(3)
-p.footers=create_footer()
-p.logo.setImage("sulin-logo.svg")
-p.title="Sulin Project"
-p.addCss("main.css")
+#join.html
+p=create_skeleton(3)
+
+# join content
 p.add(tagged("p",item(open("src/join/1.txt").read())))
 t=table(3,3)
 p.add(tagged("center",item(H("SulinOS Developer Team",3))))
@@ -92,25 +84,17 @@ t.setItem(2,2,item(open("src/join/nobugger.txt").read()))
 p.add(tagged("center",t))
 p.save("join.html")
 
-#document.html
-p=theme.theme_page()
-p.p.addRel("https://distrowatch.com/dwres.php?waitingdistro=579&resource=links")
-p.menu=create_menu(4)
-p.footers=create_footer()
-p.logo.setImage("sulin-logo.svg")
-p.title="Sulin Project"
-p.addCss("main.css")
+# gallery.html
+p=create_skeleton(4)
+
+# gallery content
 p.add(tagged("center",item(open("src/gallery/1.txt").read())))
 p.save("gallery.html")
 
-#empty
-#document.html
-p=theme.theme_page()
-p.p.addRel("https://distrowatch.com/dwres.php?waitingdistro=579&resource=links")
-p.menu=create_menu(-1)
-p.footers=create_footer()
-p.logo.setImage("sulin-logo.svg")
-p.title="Sulin Project"
-p.addCss("main.css")
+
+# empty.html
+p=create_skeleton(-1)
+
+# empty content
 p.save("empty.html")
 
