@@ -7,7 +7,7 @@
 <figcaption>SulinOS Minimal</figcaption>
 </figure>
 <hgroup>
-<h2>SulinOS Minimal ISO (beta)</h2>
+<h2>SulinOS Minimal ISO (Stable)</h2>
 <a href="https://master.dl.sourceforge.net/project/sulinos/iso_images/minimal/sulinos-20201112-minimal.iso"><h3>Minimal iso included base packages and TTY login.</h3></a>
 </hgroup>
 <p>To speialize yout environment we create a base iso. You can install it with ELSA installer and use personally or server softwares to create servers with SulinOS.</p>
