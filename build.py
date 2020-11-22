@@ -31,7 +31,11 @@ def create_skeleton(num):
     
 #css theme
 c=theme.theme_css()
-c.save("main.css")
+c.build()
+c_font=css("body",2)
+c_font.add("font-family","monospace")
+c.css.addCss(c_font)
+c.css.save("main.css")
 
 
 # index.html

@@ -90,3 +90,7 @@ min-height: 350px;
 margin: 3%;
 background: white;
 }
+body {
+font-family: monospace;
+}
+

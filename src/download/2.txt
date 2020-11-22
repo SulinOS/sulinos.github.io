@@ -50,6 +50,18 @@
 <p>Ultra minimal desktop environment with comparatively low resource requirements. Lxde provide best performance. </p>
 </article>
 
+<article>
+<figure>
+<img src="screenshot/2.jpg" height="163" alt="Mate ISO (stable)" />
+<figcaption>SulinOS Mate</figcaption>
+</figure>
+<hgroup>
+<h2>SulinOS Lxde (stable)</h2>
+<a href="https://master.dl.sourceforge.net/project/sulinos/iso_images/mate/sulinos-20201112-mate.iso"><h3>Download MATE Desktop environment without systemd.</h3></a>
+</hgroup>
+<p>Mate desktop is fork of gnome2. Mate provide classic gnome2 desktop environment experience.</p>
+</article>
+
 <h2>Beta ISO images</h2>
 
 <article>
