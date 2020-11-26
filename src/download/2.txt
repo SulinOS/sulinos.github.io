@@ -62,6 +62,7 @@
 <p>Mate desktop is fork of gnome2. Mate provide classic gnome2 desktop environment experience.</p>
 </article>
 
+
 <h2>Beta ISO images</h2>
 
 <article>
@@ -71,9 +72,10 @@
 </figure>
 <hgroup>
 <h2>SulinOS KDE (beta)</h2>
-<a href="https://sourceforge.net/projects/sulinos/files/old_iso_images/beta/s20/sulinos-20200610-beta-kde.iso/download"><h3>Test KDE ISO comes with QT-Designer and Base application.</h3></a>
+<a href="https://master.dl.sourceforge.net/project/sulinos/iso_images/kde/sulinos-20201124-kde.iso"><h3>Download KDE Desktop environment without systemd.</h3></a>
 </hgroup>
-<p>Our reason with KDE Iso is creating a `Minimal` and user-friendly environment for QT-Developers and also end-users. There are additional 200 packages in our Repository under desktop.kde component. We just add frameworks and plasma environment with important additional applications to create a clean environment. Just Enjoy With it :)</p>
+<p>Our reason with KDE Iso is creating user-friendly environment for QT-Developers and also end-users. There are additional 200 packages in our Repository under desktop.kde component. We add frameworks and plasma environment with important additional applications to create environment. Just Enjoy With it :)</p>
+<br>Current status is not stable.
 </article>
 
 <article>
@@ -86,5 +88,7 @@
 <a href="https://sourceforge.net/projects/sulinos/files/old_iso_images/beta/s20/sulinos-20200606-beta-pantheon.iso/download"><h3>Test Pantheon Desktop environment without systemd.</h3></a>
 </hgroup>
 <p>Pantheon is ElementaryOS's Desktop Environment. We succeed to compile it with libelogind and created an iso with use libelogind and openrc. It's totally useful for users</p>
+<br>Current status is not stable.
 </article>
+
 
