@@ -82,4 +82,12 @@ background: white;
 body {
 font-family: monospace;
 }
+nav li a {
+color: black;
+font-weight: bold;
+}
+nav li a:hover, nav li a.current {
+color: white;
+font-weight: bold;
+}
 
