@@ -1,10 +1,10 @@
 from sitemaker import *
-import sitemaker.themes.classic as theme
+import sitemaker.themes.simple as theme
 
 def create_menu(current=0):
     i=0
     menu=[]
-    items=["Home","Download","Documents","Join Us","Gallery"]
+    items=["Home","Download","Documents","Be Comrade","Gallery"]
     links=["index.html","download.html","document.html","join.html","gallery.html"]
     for i in range(0,len(links)):
         if i == current:
@@ -15,13 +15,13 @@ def create_menu(current=0):
 
 def create_footer():
     footer=[]
-    footer.append(tagged("center",item(H("&copy; 2016 - 2020 SulinOS Project",4))))
+    footer.append(tagged("center",item(H("&copy; 2016 - 2021 SulinOS Project",4))))
     footer.append(tagged("center",item("The software used in this project is licensed with GPLv2 GPLv3 LGPLv2 LGPLv3 AGPLv3. Documents are licensed with FDL. <br> The website is under MIT license. <a href=\"https://gitlab.com/sulincix/sitemaker\">Site builder</a> is under WTFPL.")))
     return footer
 
 def create_skeleton(num):
     p=theme.theme_page()
-    p.p.addRel("https://distrowatch.com/dwres.php?waitingdistro=579&resource=links")
+    p.p.addRel("extra.css")
     p.menu=create_menu(num)
     p.footers=create_footer()
     p.logo.setImage("sulin-logo.svg")
@@ -38,7 +38,7 @@ c_menu=css("nav li a",2)
 c_menu.add("color","black")
 c_menu.add("font-weight", "bold")
 c_menu2=css("nav li a:hover, nav li a.current",2)
-c_menu2.add("color","white")
+c_menu2.add("color","gray")
 c_menu2.add("font-weight", "bold")
 c.css.addCss(c_font)
 c.css.addCss(c_menu)
