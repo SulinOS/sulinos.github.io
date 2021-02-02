@@ -1,7 +1,11 @@
 * {
 font-family: monospace;
-  font-size: 18px;
+font-size: 18px;
 }
+H2{
+font-size: 23px;
+}
+
 article {
 clear: both;
 overflow: auto;
