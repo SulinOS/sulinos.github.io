@@ -4,7 +4,7 @@ import sitemaker.themes.simple as theme
 def create_menu(current=0):
     i=0
     menu=[]
-    items=["Home","Download","Documents","Be Comrade","Gallery"]
+    items=["Home","Download","Documents","Community","Gallery"]
     links=["index.html","download.html","document.html","join.html","gallery.html"]
     for i in range(0,len(links)):
         if i == current:

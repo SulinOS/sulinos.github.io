@@ -1,3 +1,7 @@
+* {
+font-family: monospace;
+  font-size: 18px;
+}
 article {
 clear: both;
 overflow: auto;
@@ -19,4 +23,8 @@ height: 125px;
 }
 img.large {
 height: 500px;
+}
+.navbar a{
+padding: 5px;
+margin: 5px;
 }

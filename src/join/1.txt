@@ -11,7 +11,7 @@ But if you use github or bitbucket. Its also available.
 <br><a class="foolink" href="https://bitbucket.org/SulinOS">Source Code on Bitbucket</a>
 <br><br>Or you can send feedback of sulinos bugs.
 <br><a class="foolink" href="https://gitlab.com/groups/sulinos/-/issues">SulinOS Issue Page</a>
-<H2>Contact with SulinOS</H2>
+<H2>Contact with Sulin Community</H2>
 Telegram:
 <br><a class="foolink" href="https://t.me/SulinOS">Global (English)</a>
 <br><a class="foolink" href="https://t.me/SulinOSTR">Türkçe (Turkish)</a>
@@ -22,3 +22,5 @@ Telegram:
 <br><a class="foolink" href="https://www.youtube.com/channel/UC7geCdCXvB9YbmdQP9pdmKg">SulinOS youtube channel</a>
 <br>Twitter: 
 <br><a class="foolink" href="https://twitter.com/sulinproject">SulinOS on twitter</a>
+<br>Jitsi Meet:
+<br><a class="foolink" href="https://meet.jit.si/sulinos">SulinOS on jitsi meet</a>
