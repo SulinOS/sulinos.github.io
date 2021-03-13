@@ -1,5 +1,5 @@
 from sitemaker import *
-import sitemaker.themes.simple as theme
+import sitemaker.themes.classic as theme
 
 def create_menu(current=0):
     i=0
@@ -33,7 +33,7 @@ def create_skeleton(num):
 c=theme.theme_css()
 c.build()
 c_font=css("body",2)
-c_font.add("font-family","monospace")
+#c_font.add("font-family","monospace")
 c_menu=css("nav li a",2)
 c_menu.add("color","black")
 c_menu.add("font-weight", "bold")
